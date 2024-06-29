@@ -1,0 +1,64 @@
+body { 
+font-family: 'poppins', sans-serif;
+font-size: 20px;
+}
+
+h1 { /* ukuran teks h1/nama*/
+    font-size: 20px;
+}
+
+a { /* agar tidak ada garis dibawah tekslink */
+    text-decoration: none;
+}
+
+section {/* kolom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/*foto*/
+section.header img {
+    max-width: 180px;
+    border-radius: 50%;
+}
+
+/* ukuran secton link*/
+section.links .link-item {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+/*link*/
+section.links .link-item a {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px black solid;
+    padding-top: 12px;
+    text-align: center;
+    color: black;
+    border-radius: 180px;
+    box-shadow: 5px 5px black;
+    background-color: coral;
+}
+
+/*animasi link saat kursor*/
+section.links .link-item a:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    color: black;
+    padding-top: 20px;
+    font-size: 0.7rem;;
+}
+
+@media screen (max-width: 600px) { /* untuk media tampilan mobile*/
+    
+}
+
+
